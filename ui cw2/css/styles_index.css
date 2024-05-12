@@ -1,0 +1,116 @@
+#login-register {
+  background-image: url("../images/music-fest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 7rem;
+}
+
+.animate__animated.animate__flipInX, {
+  --animate-duration: 1.5s;
+}
+
+.animate__animated, .name {
+  color: whitesmoke;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.list-group-item.active, .btn {
+  background-color: #FFCF43;
+  border-color: #FFCF43;
+}
+
+.list-group {
+  width: 35%;
+}
+
+.btn:hover {
+  background-color: #6C5CE7;
+  border-color: #6C5CE7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  opacity: 0.8;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.page.active {
+  opacity: 1;
+}
+
+.carousel {
+ height: 100vh;
+}
+
+.carousel-item {
+ height: 100vh;
+ min-height: 100vh;
+ background-cover: no-repeat;
+ background-position: center;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 3rem;
+  color: white;
+  opacity: 1.25;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.col {
+  margin: 0;
+  padding:0;
+  z-index: 1;
+}
+
+.col-auto {
+  width: auto;
+  height: auto;
+  margin-left: -11rem;
+  margin-top: 1.5rem;
+}
+
+#scroll-button {
+  position: absolute;
+  z-index: 2;
+}
+
+.form-check-input:checked {
+  background-color: #6C5CE7;
+  border-color: #6C5CE7;
+}
+
+#list-login {
+  padding-bottom: 8.2ex;
+}
+
+.desc {
+  position: absolute;
+  z-index: 2;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  transform: translate(0%, -3%);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
