@@ -413,7 +413,7 @@ var showEvents = function(date){
 		for (var i = 0; i < events[id].length; i++) {
 			div = document.createElement("div");
 			div.className = "event-item";
-			div.textContent = (i + 1) + ". " + events[id][i].name;
+			div.textContent = (i + 1) + ". " + events[id][i].name + " at " + events[id][i].time;
 			elements.list.appendChild(div);
 			close = document.createElement("div");
 			close.className = "close";
